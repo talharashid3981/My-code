@@ -1,51 +1,143 @@
 <!DOCTYPE html>
+<html>
 
 <head>
 
     <title>Facebook Page</title>
-    <link rel="icon" href="./picture/facbook.jpeg">
+    <link rel="icon" href="./assets/facbook.jpeg">
+    <link rel="stylesheet" href="./style/facbook.css">
 </head>
 
 <body>
-    <h1>
-        <pre>                                            Facebook</pre>
-    </h1>
+    <div>
+        <img src="./assets/facbook_img.svg" alt="">
+
+    </div>
     <form action="">
-
         <fieldset>
-            <h2>    <pre>                                                                                     Create a new account </pre>
-            </h2>
-            <p>
-            <pre>                                                                                      It's quick and easy </pre>
+            <h2 style="text-align: center; margin-top: 2%;">Create a new account</h2>
+            <p style="text-align: center; margin-top: -3%; color: gray;">
+                It's quick and easy
             </p>
-            <hr>
-            <input type="text" placeholder="First name">
-            <input type="text" placeholder="Surname">
+            <hr style="margin-right: -3.4%; margin-left: -3.5%;">
+
+            <input type="text" placeholder="First name" class="input1">
+            <input type="text" placeholder="Surname" class="input1">
             <br><br>
-            <input type="text" placeholder="Mobile no or email address">
+            <input type="text" placeholder="Mobile no or email address" class="input2">
             <br><br>
-            <input type="password" placeholder=" New Password">
-            <p>Date of birth ?</p>
-            <input type="date" name="dob">
-            <br><br>
-            Gender ?
-            <br><br>
-            <label for="male">Male : <input type="radio" id="male" name="Gender"> </label>
-            <label for="female">Femail : <input type="radio" id="female" name="Gender"></label>
-            <label for="custom">Custom : <input type="radio" id="custom" name="Gender"></label>
-            <p>People who use our service may have uploaded your contact information to Facebook. Learn more.
+            <input type="password" placeholder=" New Password" class="input2">
+            <p class="input4">Date of birth ?</p>
+            <select name="" class="dob">
+                <option value="date">1</option>
+                <option value="date">2</option>
+                <option value="date">3</option>
+                <option value="date">4</option>
+                <option value="date">5</option>
+                <option value="date">6</option>
+                <option value="date">7</option>
+                <option value="date">8</option>
+                <option value="date">9</option>
+                <option value="date">10</option>
+                <option value="date">11</option>
+                <option value="date">12</option>
+                <option value="date">13</option>
+                <option value="date">14</option>
+                <option value="date">15</option>
+                <option value="date">16</option>
+                <option value="date">17</option>
+                <option value="date">18</option>
+                <option value="date">19</option>
+                <option value="date">20</option>
+                <option value="date">21</option>
+                <option value="date">22</option>
+                <option value="date">23</option>
+                <option value="date">24</option>
+                <option value="date">25</option>
+                <option value="date">26</option>
+                <option value="date">27</option>
+                <option value="date">28</option>
+                <option value="date">29</option>
+                <option value="date">30</option>
+                <option value="date">31</option>
+            </select>
+            <select name="" id="" class="dob">
+                <option value="month">jan</option>
+                <option value="month">feb</option>
+                <option value="month">mar</option>
+                <option value="month">apr</option>
+                <option value="month">may</option>
+                <option value="month">jun</option>
+                <option value="month">jul</option>
+                <option value="month">aug</option>
+                <option value="month">sep</option>
+                <option value="month">oct</option>
+                <option value="month">nov</option>
+                <option value="month">dec</option>
+
+
+            </select>
+            <select name="" id="" class="dob">
+                <option value="">1999 </option>
+                <option value="">2000 </option>
+                <option value="">2001 </option>
+                <option value="">2002 </option>
+                <option value="">2003 </option>
+                <option value="">2004 </option>
+                <option value="">2005 </option>
+                <option value="">2006 </option>
+                <option value="">2007 </option>
+                <option value="">2008 </option>
+                <option value="">2009 </option>
+                <option value="">2010 </option>
+                <option value="">2011 </option>
+                <option value="">2012 </option>
+                <option value="">2013 </option>
+                <option value="">2014 </option>
+                <option value="">2015 </option>
+                <option value="">2016 </option>
+                <option value="">2017 </option>
+                <option value="">2018 </option>
+                <option value="">2019 </option>
+                <option value="">2020 </option>
+                <option value="">2021 </option>
+                <option value="">2022 </option>
+                <option value="">2023 </option>
+                <option value="">2024 </option>
+            </select>
+
+            <p class="input4">Gender ?</p>
+            <span class="input3">
+                <label for="male">&nbsp; Male : &nbsp; &nbsp; &nbsp; &nbsp; <input type="radio" id="male" name="Gender">
+                </label>
+            </span>
+            <span class="input3">
+                <label for="female">&nbsp; Female : &nbsp; &nbsp; &nbsp; <input type="radio" id="female"
+                        name="Gender"></label>
+
+            </span>
+            <span class="input3">
+                <label for="custom">&nbsp; Custom : &nbsp; &nbsp; <input type="radio" id="custom" name="Gender"></label>
+                &nbsp;
+            </span>
+            <p class="input5">People who use our service may have uploaded your contact information to Facebook. Learn
+                more.
 
             </p>
-            <p>By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS
+            <p class="input5">By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may
+                receive SMS
                 notifications from us and can opt out at any time.</p>
-            <input type="button" value="Sign  Up">
-            <br><br>
+            <div class="button">
+                <input type="button" value="Sign  Up" class="button1">
+            </div>
+            <div class="link">
             <a href="https://example.com/" target="_blank">Already have an account ?</a>
-
+        </div>
         </fieldset>
     </form>
+    <br><br>
     <!-- <br><br>
-    <input type="text" placeholder="text">
+     <input type="text" placeholder="text">
     <br>
     <input type="button" placeholder="button">
     <br>
